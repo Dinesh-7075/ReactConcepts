@@ -25,7 +25,7 @@ const ValiidateCardDetails = () => {
   const NotificationBanner = () => {
     return(
     <div className="notification">
-        <div style={{display:"flex"}}>
+        <div style={{display:"flex", alignItems:"center"}}>
             <FaExclamationTriangle className="warning-icon" /><span> Error occurred while submitting data...! </span> 
         </div>
         <button onClick={()=>{handleNotificationBanner()}}><IoCloseSharp className='close-icon'/></button>
